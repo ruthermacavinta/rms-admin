@@ -1,0 +1,30 @@
+{
+  "name": "rms-admin",
+  "version": "1.0.0",
+  "description": "My cat&#39;s meow Nuxt.js project",
+  "author": "RutherMacavinta",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.0",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "cookie-parser": "^1.4.5",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "moment": "^2.27.0",
+    "mongodb": "^3.5.9",
+    "node-cache": "^5.1.2",
+    "nuxt": "^2.13.3",
+    "nuxt-clipboard2": "^0.2.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2",
+    "nodemon": "^1.18.9"
+  }
+}
